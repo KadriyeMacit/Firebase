@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0D68B"
+    tools:context=".Language">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/kelime"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Kelime veya cümle yazınız" />
+
+    <Button
+        android:id="@+id/tanima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#6BDA71"
+        android:text="Hangi dil?" />
+
+    <TextView
+        android:id="@+id/yazi"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dil algılanıyor..." />
+</LinearLayout>
